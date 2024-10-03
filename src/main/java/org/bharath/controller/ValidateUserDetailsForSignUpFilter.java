@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.bharath.dao.UsersDaoImpl;
-import org.bharath.utils.MainCentralizedResource;
+import org.bharath.MainCentralizedResource;
 
 
 /**

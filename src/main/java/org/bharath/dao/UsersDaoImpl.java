@@ -2,10 +2,9 @@ package org.bharath.dao;
 
 
 import org.bharath.model.Users;
-import org.bharath.utils.MainCentralizedResource;
+import org.bharath.MainCentralizedResource;
 
 import java.sql.*;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,13 +52,13 @@ public class UsersDaoImpl implements UsersDao{
             }
 
             if(allUsersData.isEmpty()){
-                MainCentralizedResource.LOGGER.warn("No user records to fetch!");
+                MainCentralizedResource.LOGGER.warning("No user records to fetch!");
                 return null;
             }
 
             MainCentralizedResource.LOGGER.info("User records fetched successfully");
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return null;
         }
         return allUsersData;
@@ -82,14 +81,14 @@ public class UsersDaoImpl implements UsersDao{
                 allUserRoleAccounts.add(users);
             }
             if(allUserRoleAccounts.isEmpty()){
-                MainCentralizedResource.LOGGER.warn("There is no user role account");
+                MainCentralizedResource.LOGGER.warning("There is no user role account");
                 return null;
             }
 
             MainCentralizedResource.LOGGER.info("Successfully fetched all the user role accounts");
             return allUserRoleAccounts;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return null;
         }
     }
@@ -110,14 +109,14 @@ public class UsersDaoImpl implements UsersDao{
                 allUserRoleAccounts.add(users);
             }
             if(allUserRoleAccounts.isEmpty()){
-                MainCentralizedResource.LOGGER.warn("There is no admin role account");
+                MainCentralizedResource.LOGGER.warning("There is no admin role account");
                 return null;
             }
 
             MainCentralizedResource.LOGGER.info("Successfully fetched all the admin role accounts");
             return allUserRoleAccounts;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return null;
         }
     }
@@ -132,7 +131,7 @@ public class UsersDaoImpl implements UsersDao{
             MainCentralizedResource.LOGGER.info("Successfully Update the password for user id " + targetUser);
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
     }
@@ -149,7 +148,7 @@ public class UsersDaoImpl implements UsersDao{
         if(userId != targetUser){
             boolean isValidAdminUser = isAdminCheck(userId);
             if(!isValidAdminUser){
-                MainCentralizedResource.LOGGER.warn("You are not admin to change someone else password");
+                MainCentralizedResource.LOGGER.warning("You are not admin to change someone else password");
                 return false;
             }
         }
@@ -161,7 +160,7 @@ public class UsersDaoImpl implements UsersDao{
             MainCentralizedResource.LOGGER.info("Successfully Update the password for user id " + targetUser);
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
     }
@@ -178,19 +177,19 @@ public class UsersDaoImpl implements UsersDao{
         boolean isTheUserAdmin = isAdminCheck(userId);
 
         if(!isTheUserAdmin){
-            MainCentralizedResource.LOGGER.warn("You are not the admin user to perform this operation");
+            MainCentralizedResource.LOGGER.warning("You are not the admin user to perform this operation");
             return false;
         }
 
         boolean isValidUser = isUserIdExits(targetUser);
 
         if(!isValidUser){
-            MainCentralizedResource.LOGGER.warn("Entered user id is not valid");
+            MainCentralizedResource.LOGGER.severe("Entered user id is not valid");
             return false;
         }
 
         if(userId == targetUser){
-            MainCentralizedResource.LOGGER.warn("You are not supposed to remove you own account");
+            MainCentralizedResource.LOGGER.warning("You are not supposed to remove you own account");
             return false;
         }
 
@@ -201,7 +200,7 @@ public class UsersDaoImpl implements UsersDao{
             MainCentralizedResource.LOGGER.info("Successfully deleted user_id: " + targetUser);
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
     }
@@ -215,7 +214,7 @@ public class UsersDaoImpl implements UsersDao{
     public boolean isAdminCheck(int userId){
         boolean isAValidUserId = isUserIdExits(userId);
         if(!isAValidUserId){
-            MainCentralizedResource.LOGGER.warn("User id is invalid!");
+            MainCentralizedResource.LOGGER.warning("User id is invalid!");
             return false;
         }
 
@@ -225,7 +224,7 @@ public class UsersDaoImpl implements UsersDao{
             ResultSet resultSet = selectQueryToCheckForRoleAdmin.executeQuery();
             return resultSet.next();
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
 
@@ -240,7 +239,7 @@ public class UsersDaoImpl implements UsersDao{
     public boolean isUserRoleCheck(int userId){
         boolean isAValidUserId = isUserIdExits(userId);
         if(!isAValidUserId){
-            MainCentralizedResource.LOGGER.warn("User id is invalid!");
+            MainCentralizedResource.LOGGER.warning("User id is invalid!");
             return false;
         }
 
@@ -250,7 +249,7 @@ public class UsersDaoImpl implements UsersDao{
             ResultSet resultSet = selectQueryToCheckForRoleAdmin.executeQuery();
             return resultSet.next();
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
 
@@ -278,13 +277,13 @@ public class UsersDaoImpl implements UsersDao{
             addingUserStatement.execute();
             int userId = getUserIdByEmailId(users.getEmailId_());
             if(userId == -1){
-                MainCentralizedResource.LOGGER.warn("unable to create the user!");
+                MainCentralizedResource.LOGGER.warning("unable to create the user!");
                 return -1;
             }
             MainCentralizedResource.LOGGER.info("User created successfully with user id: " + userId);
             return userId;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return -1;
         }
     }
@@ -301,7 +300,7 @@ public class UsersDaoImpl implements UsersDao{
 
         boolean isTheUserAdmin = isAdminCheck(userId);
         if(!isTheUserAdmin){
-            MainCentralizedResource.LOGGER.warn("You are not the admin user to perform this operation");
+            MainCentralizedResource.LOGGER.warning("You are not the admin user to perform this operation");
             return false;
         }
 
@@ -309,7 +308,7 @@ public class UsersDaoImpl implements UsersDao{
             boolean isUserRoleId = isUserRoleCheck(targetUserId);
 
             if(!isUserRoleId){
-                MainCentralizedResource.LOGGER.warn("Entered id is not the user role id");
+                MainCentralizedResource.LOGGER.warning("Entered id is not the user role id");
                 return false;
             }
 
@@ -320,18 +319,18 @@ public class UsersDaoImpl implements UsersDao{
                 MainCentralizedResource.LOGGER.info(String.format("The field roles of user id %d is updated to %s", targetUserId, value));
                 return true;
             } catch (SQLException e) {
-                MainCentralizedResource.LOGGER.fatal(e.toString());
+                MainCentralizedResource.LOGGER.severe(e.toString());
                 return false;
             }
         }else if(value.equals("user")){
             if(userId == targetUserId){
-                MainCentralizedResource.LOGGER.warn("You cannot change your role by yourself");
+                MainCentralizedResource.LOGGER.warning("You cannot change your role by yourself");
                 return false;
             }
 
             boolean isTheAdminId = isAdminCheck(targetUserId);
             if(!isTheAdminId){
-                MainCentralizedResource.LOGGER.warn("Entered target id is not the admin id");
+                MainCentralizedResource.LOGGER.warning("Entered target id is not the admin id");
                 return false;
             }
 
@@ -342,11 +341,11 @@ public class UsersDaoImpl implements UsersDao{
                 MainCentralizedResource.LOGGER.info(String.format("The field roles of user id %d is updated to %s", targetUserId, value));
                 return true;
             } catch (SQLException e) {
-                MainCentralizedResource.LOGGER.fatal(e.toString());
+                MainCentralizedResource.LOGGER.severe(e.toString());
                 return false;
             }
         }else{
-            MainCentralizedResource.LOGGER.warn("Entered value is invalid");
+            MainCentralizedResource.LOGGER.warning("Entered value is invalid");
             return false;
         }
     }
@@ -365,13 +364,13 @@ public class UsersDaoImpl implements UsersDao{
             ResultSet resultSet = selectQuery.executeQuery();
 
             if(!resultSet.next()){
-                MainCentralizedResource.LOGGER.warn("Unable to fetch the user details");
+                MainCentralizedResource.LOGGER.warning("Unable to fetch the user details");
                 return null;
             }
 
             users = new Users(resultSet.getInt("user_id"), resultSet.getString("user_name"), resultSet.getString("password"), resultSet.getDate("birthdate").toLocalDate(), resultSet.getString("email_id"), resultSet.getDate("signup_date").toLocalDate(), resultSet.getTime("signup_time").toLocalTime(), resultSet.getString("roles"), resultSet.getString("is_blocked").charAt(0));
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return null;
         }
         return users;
@@ -388,26 +387,26 @@ public class UsersDaoImpl implements UsersDao{
     public boolean blockAndUnblock(int userId, int targetUser, char value){
         boolean isTheUserAdmin = isAdminCheck(userId);
         if(!isTheUserAdmin){
-            MainCentralizedResource.LOGGER.warn("You are not the admin user to perform this operation");
+            MainCentralizedResource.LOGGER.warning("You are not the admin user to perform this operation");
             return false;
         }
 
         boolean isValidTargetUser = isUserIdExits(targetUser);
 
         if(!isValidTargetUser){
-            MainCentralizedResource.LOGGER.warn("Entered User is invalid");
+            MainCentralizedResource.LOGGER.warning("Entered User is invalid");
             return false;
         }
 
         if(userId == targetUser){
-            MainCentralizedResource.LOGGER.warn("You are not supposed to change the your own blocking state");
+            MainCentralizedResource.LOGGER.warning("You are not supposed to change the your own blocking state");
             return false;
         }
 
         if(value == 'y'){
             boolean isUserAccountBlocked = isUserAccountBlocked(targetUser);
             if(isUserAccountBlocked){
-                MainCentralizedResource.LOGGER.warn("User account already blocked");
+                MainCentralizedResource.LOGGER.warning("User account already blocked");
                 return false;
             }
 
@@ -418,13 +417,13 @@ public class UsersDaoImpl implements UsersDao{
                 MainCentralizedResource.LOGGER.info("Successfully changed the blockState of user");
                 return true;
             } catch (SQLException e) {
-                MainCentralizedResource.LOGGER.fatal(e.toString());
+                MainCentralizedResource.LOGGER.severe(e.toString());
                 return false;
             }
         }else if(value == 'n'){
             boolean isUserAccountBlocked = isUserAccountBlocked(targetUser);
             if(!isUserAccountBlocked){
-                MainCentralizedResource.LOGGER.warn("User account already unblocked");
+                MainCentralizedResource.LOGGER.warning("User account already unblocked");
                 return false;
             }
 
@@ -435,11 +434,11 @@ public class UsersDaoImpl implements UsersDao{
                 MainCentralizedResource.LOGGER.info("Successfully changed the blockState of user");
                 return true;
             } catch (SQLException e) {
-                MainCentralizedResource.LOGGER.fatal(e.toString());
+                MainCentralizedResource.LOGGER.severe(e.toString());
                 return false;
             }
         }else{
-            MainCentralizedResource.LOGGER.warn("Entered value is invalid");
+            MainCentralizedResource.LOGGER.warning("Entered value is invalid");
             return false;
         }
     }
@@ -454,7 +453,7 @@ public class UsersDaoImpl implements UsersDao{
         boolean isValidUserId = isUserIdExits(userId);
 
         if(!isValidUserId){
-            MainCentralizedResource.LOGGER.warn("Entered user id is invalid");
+            MainCentralizedResource.LOGGER.warning("Entered user id is invalid");
             return false;
         }
 
@@ -464,7 +463,7 @@ public class UsersDaoImpl implements UsersDao{
             ResultSet resultSet = selectQueryToCheckIfTheUserAccountBlocked.executeQuery();
             return resultSet.next();
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
 
@@ -483,7 +482,7 @@ public class UsersDaoImpl implements UsersDao{
             ResultSet resultSet = selectUserIdByFilteringUserId.executeQuery();
             return resultSet.next();
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
     }
@@ -501,7 +500,7 @@ public class UsersDaoImpl implements UsersDao{
             ResultSet resultSet = checkIsEmailPresentStatement.executeQuery();
             return resultSet.next();
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
     }
@@ -522,7 +521,7 @@ public class UsersDaoImpl implements UsersDao{
             }
             return resultSet.getInt("user_id");
         }catch(SQLException e){
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return -1;
         }
 

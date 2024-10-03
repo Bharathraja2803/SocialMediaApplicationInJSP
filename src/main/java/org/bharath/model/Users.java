@@ -4,10 +4,11 @@
 package org.bharath.model;
 
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class Users {
+public class Users implements Serializable{
     private int userId_;
     private String userName_;
     private String password_;

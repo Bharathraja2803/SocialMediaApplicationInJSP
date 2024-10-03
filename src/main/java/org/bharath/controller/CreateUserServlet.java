@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 
 import org.bharath.dao.UsersDaoImpl;
 import org.bharath.model.Users;
-import org.bharath.utils.MainCentralizedResource;
+import org.bharath.MainCentralizedResource;
 
 
 public class CreateUserServlet extends HttpServlet {

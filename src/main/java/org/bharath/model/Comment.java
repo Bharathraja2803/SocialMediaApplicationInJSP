@@ -3,11 +3,13 @@
  */
 package org.bharath.model;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class Comment {
-    private int commentId;
+public class Comment implements Serializable{
+
+	private int commentId;
     private LocalDate commentDate;
     private LocalTime commentTime;
     private int commentUserId;

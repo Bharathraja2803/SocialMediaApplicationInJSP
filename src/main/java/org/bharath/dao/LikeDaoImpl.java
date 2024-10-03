@@ -2,7 +2,7 @@ package org.bharath.dao;
 
 
 import org.bharath.model.Like;
-import org.bharath.utils.MainCentralizedResource;
+import org.bharath.MainCentralizedResource;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -29,7 +29,7 @@ public class LikeDaoImpl implements LikeDao{
     public boolean likeThePost(int userId, int postId){
         Like like = getLike(userId, postId);
         if(like != null){
-            MainCentralizedResource.LOGGER.warn("You have already liked the post");
+            MainCentralizedResource.LOGGER.warning("You have already liked the post");
             return false;
         }
 
@@ -41,7 +41,7 @@ public class LikeDaoImpl implements LikeDao{
             MainCentralizedResource.LOGGER.info("You have liked the record");
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
 
@@ -70,13 +70,13 @@ public class LikeDaoImpl implements LikeDao{
             }
 
             if(likeList.isEmpty()){
-                MainCentralizedResource.LOGGER.warn("No likes received for the post with post id: " + postId);
+                MainCentralizedResource.LOGGER.warning("No likes received for the post with post id: " + postId);
                 return null;
             }
             MainCentralizedResource.LOGGER.info("Fetched all likes for the post with post id: " + postId);
             return likeList;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return null;
         }
     }
@@ -95,7 +95,7 @@ public class LikeDaoImpl implements LikeDao{
             MainCentralizedResource.LOGGER.info(String.format("The like id %d is removed for the post: ", likeId));
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
 
@@ -111,7 +111,7 @@ public class LikeDaoImpl implements LikeDao{
         UsersDaoImpl usersDaoImp = UsersDaoImpl.getInstance(connection_);
         boolean isValidUser = usersDaoImp.isUserIdExits(userId);
         if(!isValidUser){
-            MainCentralizedResource.LOGGER.warn("User is invalid");
+            MainCentralizedResource.LOGGER.warning("User is invalid");
             return false;
         }
 
@@ -122,7 +122,7 @@ public class LikeDaoImpl implements LikeDao{
             MainCentralizedResource.LOGGER.info("Successfully deleted the likes using userid");
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
 
@@ -149,7 +149,7 @@ public class LikeDaoImpl implements LikeDao{
             MainCentralizedResource.LOGGER.info("All liked were removed for the post");
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.warning(e.toString());
             return false;
         }
 
@@ -179,7 +179,7 @@ public class LikeDaoImpl implements LikeDao{
             like.setLikeId(resultSet.getInt("like_id"));
             return like;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return null;
         }
     }

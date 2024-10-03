@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 import org.bharath.dao.UsersDao;
 import org.bharath.dao.UsersDaoImpl;
 import org.bharath.model.Users;
-import org.bharath.utils.MainCentralizedResource;
+import org.bharath.MainCentralizedResource;
 
 
 public class AuthenticationFilter implements Filter {
@@ -26,7 +26,6 @@ public class AuthenticationFilter implements Filter {
 			chain.doFilter(request, response);
 			return;
 		}
-		
 		String userid = request.getParameter("userid");
 		String password = request.getParameter("password");
 		
@@ -34,8 +33,8 @@ public class AuthenticationFilter implements Filter {
         try{
             userIdInteger = Integer.parseInt(userid);
         }catch(NumberFormatException e){
-            MainCentralizedResource.LOGGER.warn("User id incorrect\nuserid: " + userid);
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.warning("User id incorrect\nuserid: " + userid);
+            MainCentralizedResource.LOGGER.severe(e.toString());
             session.setAttribute("inValidUserId", "y");
             RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
             rd.forward(request, response);
@@ -45,7 +44,7 @@ public class AuthenticationFilter implements Filter {
         UsersDao usersDaoImpl = UsersDaoImpl.getInstance(MainCentralizedResource.CONNECTION);
         boolean isExits = usersDaoImpl.isUserIdExits(userIdInteger);
         if(!isExits){
-            MainCentralizedResource.LOGGER.warn("User id incorrect, userid: " + userid);
+            MainCentralizedResource.LOGGER.warning("User id incorrect, userid: " + userid);
             session.setAttribute("inValidUserId", "y");
             RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
             rd.forward(request, response);
@@ -57,7 +56,7 @@ public class AuthenticationFilter implements Filter {
         boolean isPasswordCorrect = users.getPassword_().equals(hashedPassword);
 
         if(!isPasswordCorrect){
-            MainCentralizedResource.LOGGER.warn("Password incorrect!..");
+            MainCentralizedResource.LOGGER.warning("Password incorrect!..");
             session.setAttribute("inCorrectPassword", "y");
             RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
             rd.forward(request, response);
@@ -67,7 +66,7 @@ public class AuthenticationFilter implements Filter {
         
         
         if(users.isBlocked() == 'y'){
-            MainCentralizedResource.LOGGER.warn("Your account is blocked cannot login");
+            MainCentralizedResource.LOGGER.warning("Your account is blocked cannot login");
             session.setAttribute("isAccountBlocked", "y");
             RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
             rd.forward(request, response);
@@ -76,11 +75,6 @@ public class AuthenticationFilter implements Filter {
 
         MainCentralizedResource.LOGGER.info("Welcome " + users.getUserName_());
         session.setAttribute("loggedinUser", users);
-        if(users.getRoles_().equals("admin")){
-        	session.setAttribute("loggedinUserRole", "admin");
-        }else{
-			session.setAttribute("loggedinUserRole", "user");
-		}
 		chain.doFilter(request, response);
 		
 	}

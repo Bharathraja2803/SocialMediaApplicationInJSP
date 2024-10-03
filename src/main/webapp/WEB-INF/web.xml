@@ -28,6 +28,12 @@
   	<description></description>
   	<filter-class>org.bharath.controller.ChangePasswordValidateFilter</filter-class>
   </filter>
+  <filter>
+  	<filter-name>GetAllPostFilter</filter-name>
+  	<display-name>GetAllPostFilter</display-name>
+  	<description></description>
+  	<filter-class>org.bharath.controller.GetAllPostFilter</filter-class>
+  </filter>
   <filter-mapping>
   	<filter-name>AuthenticationFilter</filter-name>
   	<url-pattern>/post.jsp</url-pattern>
@@ -44,6 +50,11 @@
   	<filter-name>ChangePasswordValidateFilter</filter-name>
   	<url-pattern>/ChangePasswordServlet</url-pattern>
   </filter-mapping>
+  <filter-mapping>
+  	<filter-name>GetAllPostFilter</filter-name>
+  	<url-pattern>/post.jsp</url-pattern>
+  </filter-mapping>
+
   <servlet>
   	<servlet-name>CreateNewUserServlet</servlet-name>
   	<display-name>CreateNewUserServlet</display-name>
@@ -62,6 +73,84 @@
   	<description></description>
   	<servlet-class>org.bharath.controller.LogoutServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>PostCreationServlet</servlet-name>
+  	<display-name>PostCreationServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.PostCreationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LikeThePostServlet</servlet-name>
+  	<display-name>LikeThePostServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.LikeThePostServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UnlikeThePostServlet</servlet-name>
+  	<display-name>UnlikeThePostServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.UnlikeThePostServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddCommentServlet</servlet-name>
+  	<display-name>AddCommentServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.AddCommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PostDeleteServlet</servlet-name>
+  	<display-name>PostDeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.PostDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UnfollowServlet</servlet-name>
+  	<display-name>UnfollowServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.UnfollowServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FollowServlet</servlet-name>
+  	<display-name>FollowServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.FollowServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangeRoleToUserServlet</servlet-name>
+  	<display-name>ChangeRoleToUserServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.ChangeRoleToUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangeRoleToAdminServlet</servlet-name>
+  	<display-name>ChangeRoleToAdminServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.ChangeRoleToAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RemoveAccountServlet</servlet-name>
+  	<display-name>RemoveAccountServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.RemoveAccountServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UnblockUserServlet</servlet-name>
+  	<display-name>UnblockUserServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.UnblockUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BlockUserServlet</servlet-name>
+  	<display-name>BlockUserServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.BlockUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ChangePasswordAdminServlet</servlet-name>
+  	<display-name>ChangePasswordAdminServlet</display-name>
+  	<description></description>
+  	<servlet-class>org.bharath.controller.ChangePasswordAdminServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>CreateNewUserServlet</servlet-name>
   	<url-pattern>/CreateNewUserServlet</url-pattern>
@@ -73,5 +162,57 @@
   <servlet-mapping>
   	<servlet-name>LogoutServlet</servlet-name>
   	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PostCreationServlet</servlet-name>
+  	<url-pattern>/PostCreationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LikeThePostServlet</servlet-name>
+  	<url-pattern>/LikeThePostServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UnlikeThePostServlet</servlet-name>
+  	<url-pattern>/UnlikeThePostServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddCommentServlet</servlet-name>
+  	<url-pattern>/AddCommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PostDeleteServlet</servlet-name>
+  	<url-pattern>/PostDeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UnfollowServlet</servlet-name>
+  	<url-pattern>/UnfollowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FollowServlet</servlet-name>
+  	<url-pattern>/FollowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangeRoleToUserServlet</servlet-name>
+  	<url-pattern>/ChangeRoleToUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangeRoleToAdminServlet</servlet-name>
+  	<url-pattern>/ChangeRoleToAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RemoveAccountServlet</servlet-name>
+  	<url-pattern>/RemoveAccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UnblockUserServlet</servlet-name>
+  	<url-pattern>/UnblockUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BlockUserServlet</servlet-name>
+  	<url-pattern>/BlockUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ChangePasswordAdminServlet</servlet-name>
+  	<url-pattern>/ChangePasswordAdminServlet</url-pattern>
   </servlet-mapping>
 </web-app>

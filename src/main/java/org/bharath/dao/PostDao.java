@@ -10,4 +10,5 @@ public interface PostDao {
     boolean removePost(int postId);
     boolean isPostExists(int postId);
     List<Post> getAllMyPost(int userId);
+    Post getPost(int postId);
 }

@@ -2,7 +2,7 @@ package org.bharath.dao;
 
 
 import org.bharath.model.Post;
-import org.bharath.utils.MainCentralizedResource;
+import org.bharath.MainCentralizedResource;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -35,7 +35,7 @@ public class PostDaoImpl implements PostDao{
             MainCentralizedResource.LOGGER.info("Successfully posted the message.");
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
     }
@@ -50,7 +50,7 @@ public class PostDaoImpl implements PostDao{
         boolean isPostExits = isPostExists(postId);
 
         if(!isPostExits){
-            MainCentralizedResource.LOGGER.warn("Post not exists");
+            MainCentralizedResource.LOGGER.warning("Post not exists");
             return false;
         }
         try {
@@ -60,7 +60,7 @@ public class PostDaoImpl implements PostDao{
             MainCentralizedResource.LOGGER.info("Successfully deleted the post!");
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
 
@@ -79,7 +79,7 @@ public class PostDaoImpl implements PostDao{
             ResultSet resultSet = selectQueryToCheckPostExits.executeQuery();
             return resultSet.next();
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
     }
@@ -119,13 +119,32 @@ public class PostDaoImpl implements PostDao{
             }
 
             if(myAllPosts.isEmpty()){
-                MainCentralizedResource.LOGGER.warn(String.format("User %s have not posted any post", userId));
+                MainCentralizedResource.LOGGER.warning(String.format("User %s have not posted any post", userId));
                 return null;
             }
             return myAllPosts;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return null;
         }
+    }
+    
+    @Override
+    public Post getPost(int postId){
+    	if(isPostExists(postId)){
+    		try {
+                PreparedStatement selectQueryToCheckPostExits = connection_.prepareStatement("select * from post where post_id = ?");
+                selectQueryToCheckPostExits.setInt(1, postId);
+                ResultSet resultSet = selectQueryToCheckPostExits.executeQuery();
+                resultSet.next();
+                Post post = new Post(postId, resultSet.getInt("user_id"), resultSet.getDate("posted_date").toLocalDate(), resultSet.getTime("posted_time").toLocalTime(), resultSet.getString("post_content"));
+                return post;
+            } catch (SQLException e) {
+                MainCentralizedResource.LOGGER.severe(e.toString());
+                return null;
+            }	
+    	}else{
+    		return null;
+    	}
     }
 }

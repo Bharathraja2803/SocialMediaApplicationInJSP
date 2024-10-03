@@ -32,7 +32,7 @@
 	}
 
 	if(session.getAttribute("newUserCreatedId") != null){
-		int userid = (int)session.getAttribute("newUserCreatedId");
+		int userid = (Integer)session.getAttribute("newUserCreatedId");
 		out.println("<h3>User Account created with id: "+userid+" </h3>");
 		session.removeAttribute("newUserCreatedId");
 	}

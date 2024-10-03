@@ -1,0 +1,1244 @@
+Oct 03, 2024 10:01:18 PM org.bharath.controller.AuthenticationFilter doFilter
+INFO: Welcome Bharathraja R K
+Oct 03, 2024 10:01:18 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:01:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:01:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 20
+Oct 03, 2024 10:01:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 19
+Oct 03, 2024 10:01:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 19
+Oct 03, 2024 10:01:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 6
+Oct 03, 2024 10:01:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 6
+Oct 03, 2024 10:01:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 23
+Oct 03, 2024 10:01:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 23
+Oct 03, 2024 10:01:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:01:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:01:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:01:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 13
+Oct 03, 2024 10:01:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:01:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:01:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:01:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:01:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:01:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 18
+Oct 03, 2024 10:01:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:01:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:01:27 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:01:32 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:01:32 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:01:32 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 20
+Oct 03, 2024 10:01:32 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 19
+Oct 03, 2024 10:01:32 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 19
+Oct 03, 2024 10:01:32 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 6
+Oct 03, 2024 10:01:32 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 6
+Oct 03, 2024 10:01:32 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 23
+Oct 03, 2024 10:01:32 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 23
+Oct 03, 2024 10:01:32 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:01:32 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:01:32 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:01:32 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 13
+Oct 03, 2024 10:01:32 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:01:32 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:01:32 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:01:32 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:01:32 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:01:32 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 18
+Oct 03, 2024 10:01:32 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:01:32 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:01:33 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:01:33 PM org.bharath.dao.FollowerDaoImpl listOfAllUsersFollowingYou
+INFO: Successfully retrieved the followers list
+Oct 03, 2024 10:01:34 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:01:34 PM org.bharath.dao.FollowerDaoImpl listOfAllUsersFollowingYou
+INFO: Successfully retrieved the followers list
+Oct 03, 2024 10:01:40 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:01:40 PM org.bharath.dao.FollowerDaoImpl listOfAllUsersFollowingYou
+INFO: Successfully retrieved the followers list
+Oct 03, 2024 10:01:42 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:04:11 PM org.bharath.dao.UsersDaoImpl addNewUser
+INFO: User created successfully with user id: 7
+Oct 03, 2024 10:04:55 PM org.bharath.controller.AuthenticationFilter doFilter
+WARNING: Password incorrect!..
+Oct 03, 2024 10:05:01 PM org.bharath.controller.AuthenticationFilter doFilter
+WARNING: Password incorrect!..
+Oct 03, 2024 10:05:07 PM org.bharath.controller.AuthenticationFilter doFilter
+WARNING: Password incorrect!..
+Oct 03, 2024 10:05:17 PM org.bharath.controller.AuthenticationFilter doFilter
+INFO: Welcome Vinay Kumar
+Oct 03, 2024 10:05:17 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:05:17 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:05:17 PM org.bharath.controller.GetAllPostFilter doFilter
+WARNING: Something went wrong in fetching the followers!
+Oct 03, 2024 10:05:17 PM org.bharath.dao.PostDaoImpl getAllMyPost
+WARNING: User 7 have not posted any post
+Oct 03, 2024 10:05:17 PM org.bharath.controller.GetAllPostFilter doFilter
+WARNING: Something went wrong in fetching my post
+Oct 03, 2024 10:05:17 PM org.bharath.controller.GetAllPostFilter doFilter
+WARNING: No post posted by any follower
+Oct 03, 2024 10:05:43 PM org.bharath.dao.PostDaoImpl createPost
+INFO: Successfully posted the message.
+Oct 03, 2024 10:05:43 PM org.bharath.controller.PostCreationServlet doPost
+INFO: Successfully created the post
+Oct 03, 2024 10:05:43 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:05:43 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:05:43 PM org.bharath.controller.GetAllPostFilter doFilter
+WARNING: Something went wrong in fetching the followers!
+Oct 03, 2024 10:05:43 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:05:43 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:05:49 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:05:49 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:05:49 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:05:49 PM org.bharath.dao.FollowerDaoImpl listOfAllUsersFollowingYou
+WARNING: There were no followers following you
+Oct 03, 2024 10:05:55 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:05:55 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:05:55 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:05:55 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:05:55 PM org.bharath.dao.FollowerDaoImpl listAllNotFollowedUsers
+WARNING: No followers were added for the user so far
+Oct 03, 2024 10:05:58 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:05:58 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:05:58 PM org.bharath.dao.FollowerDaoImpl followUser
+INFO: Added the record to the follower table
+Oct 03, 2024 10:05:58 PM org.bharath.controller.FollowServlet doGet
+INFO: Following the user completed
+Oct 03, 2024 10:05:58 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:05:58 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:05:58 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:05:58 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:05:58 PM org.bharath.dao.FollowerDaoImpl listAllNotFollowedUsers
+INFO: Successfully retrieved all the non followed users list
+Oct 03, 2024 10:06:03 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:06:03 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:06:03 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:06:03 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:06:03 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:06:03 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 13
+Oct 03, 2024 10:06:03 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:06:03 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:06:06 PM org.bharath.dao.LikeDaoImpl likeThePost
+INFO: You have liked the record
+Oct 03, 2024 10:06:06 PM org.bharath.controller.LikeThePostServlet doGet
+INFO: Like action completed successfully
+Oct 03, 2024 10:06:06 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:06:06 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:06:06 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:06:06 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:06:06 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:06:06 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 13
+Oct 03, 2024 10:06:06 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:06:06 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:06:40 PM org.bharath.dao.CommentDaoImpl commentThePost
+INFO: Successfully added the comment to the post id: 13
+Oct 03, 2024 10:06:40 PM org.bharath.controller.AddCommentServlet doPost
+INFO: Successfully commented the post
+Oct 03, 2024 10:06:40 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:06:40 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:06:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:06:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:06:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:06:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:06:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:06:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:06:43 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:06:46 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:06:46 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:06:46 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:06:46 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:06:46 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:06:46 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:06:46 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:06:46 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:06:48 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:06:51 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:06:51 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:06:51 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:06:51 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:06:51 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:06:51 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:06:51 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:06:51 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:06:56 PM org.bharath.dao.LikeDaoImpl likeThePost
+INFO: You have liked the record
+Oct 03, 2024 10:06:56 PM org.bharath.controller.LikeThePostServlet doGet
+INFO: Like action completed successfully
+Oct 03, 2024 10:06:56 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:06:56 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:06:56 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:06:56 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:06:56 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:06:56 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:06:56 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:06:56 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:07:04 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:07:10 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:10 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:07:10 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:10 PM org.bharath.dao.FollowerDaoImpl listOfAllUsersFollowingYou
+WARNING: There were no followers following you
+Oct 03, 2024 10:07:12 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:12 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:07:17 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:17 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:17 PM org.bharath.dao.FollowerDaoImpl unFollowUser
+INFO: Successfully removed the record from the follower table
+Oct 03, 2024 10:07:17 PM org.bharath.controller.UnfollowServlet doGet
+INFO: Unfollowing the user completed
+Oct 03, 2024 10:07:17 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:17 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:07:18 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:18 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:07:18 PM org.bharath.controller.GetAllPostFilter doFilter
+WARNING: Something went wrong in fetching the followers!
+Oct 03, 2024 10:07:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:07:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:07:27 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:27 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:07:27 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:27 PM org.bharath.dao.FollowerDaoImpl listOfAllUsersFollowingYou
+WARNING: There were no followers following you
+Oct 03, 2024 10:07:29 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:29 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:29 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:07:29 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:29 PM org.bharath.dao.FollowerDaoImpl listAllNotFollowedUsers
+WARNING: No followers were added for the user so far
+Oct 03, 2024 10:07:32 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:32 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:32 PM org.bharath.dao.FollowerDaoImpl followUser
+INFO: Added the record to the follower table
+Oct 03, 2024 10:07:32 PM org.bharath.controller.FollowServlet doGet
+INFO: Following the user completed
+Oct 03, 2024 10:07:32 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:32 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:32 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:07:32 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:32 PM org.bharath.dao.FollowerDaoImpl listAllNotFollowedUsers
+INFO: Successfully retrieved all the non followed users list
+Oct 03, 2024 10:07:34 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:34 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:34 PM org.bharath.dao.FollowerDaoImpl followUser
+INFO: Added the record to the follower table
+Oct 03, 2024 10:07:34 PM org.bharath.controller.FollowServlet doGet
+INFO: Following the user completed
+Oct 03, 2024 10:07:34 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:34 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:34 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:07:34 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:34 PM org.bharath.dao.FollowerDaoImpl listAllNotFollowedUsers
+INFO: Successfully retrieved all the non followed users list
+Oct 03, 2024 10:07:36 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:36 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:07:36 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:07:36 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 20
+Oct 03, 2024 10:07:36 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:07:36 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:07:36 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:07:36 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:07:36 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:07:36 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:07:43 PM org.bharath.dao.LikeDaoImpl likeThePost
+INFO: You have liked the record
+Oct 03, 2024 10:07:43 PM org.bharath.controller.LikeThePostServlet doGet
+INFO: Like action completed successfully
+Oct 03, 2024 10:07:43 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:07:43 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:07:43 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:07:43 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 20
+Oct 03, 2024 10:07:43 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:07:43 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:07:43 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:07:43 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:07:43 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:07:43 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:08:13 PM org.bharath.dao.CommentDaoImpl commentThePost
+INFO: Successfully added the comment to the post id: 20
+Oct 03, 2024 10:08:13 PM org.bharath.controller.AddCommentServlet doPost
+INFO: Successfully commented the post
+Oct 03, 2024 10:08:13 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:08:13 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:08:13 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:08:13 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:08:13 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:08:13 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:08:13 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:08:13 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:08:13 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:08:13 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:08:18 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:08:18 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:08:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:08:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:08:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:08:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:08:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:08:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:08:18 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:08:18 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:08:21 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:08:21 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:08:21 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:08:21 PM org.bharath.dao.FollowerDaoImpl listOfAllUsersFollowingYou
+WARNING: There were no followers following you
+Oct 03, 2024 10:08:40 PM org.bharath.controller.AuthenticationFilter doFilter
+INFO: Welcome Naveen
+Oct 03, 2024 10:08:40 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:08:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:08:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:08:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 19
+Oct 03, 2024 10:08:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 19
+Oct 03, 2024 10:08:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 6
+Oct 03, 2024 10:08:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 6
+Oct 03, 2024 10:08:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 23
+Oct 03, 2024 10:08:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 23
+Oct 03, 2024 10:08:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:08:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:08:41 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:08:41 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:08:41 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 24
+Oct 03, 2024 10:08:41 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:08:41 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:08:41 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:08:41 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:08:41 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:08:41 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:08:41 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 18
+Oct 03, 2024 10:08:41 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:08:41 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:08:47 PM org.bharath.dao.LikeDaoImpl likeThePost
+INFO: You have liked the record
+Oct 03, 2024 10:08:47 PM org.bharath.controller.LikeThePostServlet doGet
+INFO: Like action completed successfully
+Oct 03, 2024 10:08:47 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:08:47 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:08:47 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:08:47 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 19
+Oct 03, 2024 10:08:47 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 19
+Oct 03, 2024 10:08:47 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 6
+Oct 03, 2024 10:08:47 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 6
+Oct 03, 2024 10:08:47 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 23
+Oct 03, 2024 10:08:47 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 23
+Oct 03, 2024 10:08:47 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:08:47 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:08:47 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:08:47 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:08:47 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:08:47 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:08:47 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:08:47 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:08:47 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:08:47 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:08:47 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:08:47 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 18
+Oct 03, 2024 10:08:47 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:08:47 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:08:55 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:09:02 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:09:02 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:09:02 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:09:02 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 19
+Oct 03, 2024 10:09:02 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 19
+Oct 03, 2024 10:09:02 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 6
+Oct 03, 2024 10:09:02 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 6
+Oct 03, 2024 10:09:02 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 23
+Oct 03, 2024 10:09:02 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 23
+Oct 03, 2024 10:09:02 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:09:02 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:09:02 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:09:02 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:09:02 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:09:02 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:09:02 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:09:02 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:09:02 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:09:02 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:09:02 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:09:02 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 18
+Oct 03, 2024 10:09:02 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:09:02 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:09:16 PM org.bharath.dao.LikeDaoImpl likeThePost
+INFO: You have liked the record
+Oct 03, 2024 10:09:16 PM org.bharath.controller.LikeThePostServlet doGet
+INFO: Like action completed successfully
+Oct 03, 2024 10:09:16 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:09:16 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:09:16 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:09:16 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 19
+Oct 03, 2024 10:09:16 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 19
+Oct 03, 2024 10:09:16 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 6
+Oct 03, 2024 10:09:16 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 6
+Oct 03, 2024 10:09:16 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 23
+Oct 03, 2024 10:09:16 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 23
+Oct 03, 2024 10:09:16 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:09:16 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:09:16 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:09:16 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:09:16 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:09:16 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:09:16 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:09:16 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:09:16 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:09:16 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:09:16 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:09:16 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 18
+Oct 03, 2024 10:09:16 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:09:16 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:09:39 PM org.bharath.dao.CommentDaoImpl commentThePost
+INFO: Successfully added the comment to the post id: 18
+Oct 03, 2024 10:09:39 PM org.bharath.controller.AddCommentServlet doPost
+INFO: Successfully commented the post
+Oct 03, 2024 10:09:39 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:09:39 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:09:39 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:09:39 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 19
+Oct 03, 2024 10:09:39 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 19
+Oct 03, 2024 10:09:39 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 6
+Oct 03, 2024 10:09:39 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 6
+Oct 03, 2024 10:09:39 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 23
+Oct 03, 2024 10:09:39 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 23
+Oct 03, 2024 10:09:39 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:09:39 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:09:39 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:09:39 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:09:39 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:09:39 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:09:39 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:09:39 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:09:39 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:09:39 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:09:39 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:09:39 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 18
+Oct 03, 2024 10:09:39 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:09:39 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:09:46 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:09:46 PM org.bharath.dao.FollowerDaoImpl listOfAllUsersFollowingYou
+INFO: Successfully retrieved the followers list
+Oct 03, 2024 10:09:48 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:10:09 PM org.bharath.controller.AuthenticationFilter doFilter
+INFO: Welcome Bharathraja R K
+Oct 03, 2024 10:10:09 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:10:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:10:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:10:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 19
+Oct 03, 2024 10:10:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 19
+Oct 03, 2024 10:10:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 6
+Oct 03, 2024 10:10:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 6
+Oct 03, 2024 10:10:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 23
+Oct 03, 2024 10:10:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 23
+Oct 03, 2024 10:10:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:10:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:10:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:10:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:10:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:10:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:10:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:10:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:10:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:10:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:10:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:10:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 18
+Oct 03, 2024 10:10:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:10:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:10:11 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:10:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:10:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:10:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 19
+Oct 03, 2024 10:10:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 19
+Oct 03, 2024 10:10:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 6
+Oct 03, 2024 10:10:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 6
+Oct 03, 2024 10:10:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 23
+Oct 03, 2024 10:10:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 23
+Oct 03, 2024 10:10:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:10:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:10:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:10:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:10:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:10:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:10:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:10:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:10:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:10:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:10:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:10:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 18
+Oct 03, 2024 10:10:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:10:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:10:13 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:10:13 PM org.bharath.dao.FollowerDaoImpl listOfAllUsersFollowingYou
+INFO: Successfully retrieved the followers list
+Oct 03, 2024 10:10:14 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:10:18 PM org.bharath.dao.UsersDaoImpl updateTheRoleOfTheUser
+INFO: The field roles of user id 2 is updated to user
+Oct 03, 2024 10:10:18 PM org.bharath.controller.ChangeRoleToUserServlet doGet
+INFO: Role of the admin changes to user
+Oct 03, 2024 10:10:18 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:13:07 PM org.bharath.dao.UsersDaoImpl addNewUser
+INFO: User created successfully with user id: 8
+Oct 03, 2024 10:14:50 PM org.bharath.dao.UsersDaoImpl addNewUser
+INFO: User created successfully with user id: 9
+Oct 03, 2024 10:15:10 PM org.bharath.controller.AuthenticationFilter doFilter
+INFO: Welcome Aanandh
+Oct 03, 2024 10:15:10 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:15:10 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:15:10 PM org.bharath.controller.GetAllPostFilter doFilter
+WARNING: Something went wrong in fetching the followers!
+Oct 03, 2024 10:15:10 PM org.bharath.dao.PostDaoImpl getAllMyPost
+WARNING: User 9 have not posted any post
+Oct 03, 2024 10:15:10 PM org.bharath.controller.GetAllPostFilter doFilter
+WARNING: Something went wrong in fetching my post
+Oct 03, 2024 10:15:10 PM org.bharath.controller.GetAllPostFilter doFilter
+WARNING: No post posted by any follower
+Oct 03, 2024 10:15:44 PM org.bharath.dao.PostDaoImpl createPost
+INFO: Successfully posted the message.
+Oct 03, 2024 10:15:44 PM org.bharath.controller.PostCreationServlet doPost
+INFO: Successfully created the post
+Oct 03, 2024 10:15:44 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:15:44 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:15:44 PM org.bharath.controller.GetAllPostFilter doFilter
+WARNING: Something went wrong in fetching the followers!
+Oct 03, 2024 10:15:44 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 25
+Oct 03, 2024 10:15:44 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 25
+Oct 03, 2024 10:15:48 PM org.bharath.dao.LikeDaoImpl likeThePost
+INFO: You have liked the record
+Oct 03, 2024 10:15:48 PM org.bharath.controller.LikeThePostServlet doGet
+INFO: Like action completed successfully
+Oct 03, 2024 10:15:48 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:15:48 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:15:48 PM org.bharath.controller.GetAllPostFilter doFilter
+WARNING: Something went wrong in fetching the followers!
+Oct 03, 2024 10:15:48 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 25
+Oct 03, 2024 10:15:48 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 25
+Oct 03, 2024 10:15:49 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 25
+Oct 03, 2024 10:15:52 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:15:52 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:15:52 PM org.bharath.controller.GetAllPostFilter doFilter
+WARNING: Something went wrong in fetching the followers!
+Oct 03, 2024 10:15:52 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 25
+Oct 03, 2024 10:15:52 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 25
+Oct 03, 2024 10:16:00 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:00 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:16:00 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:00 PM org.bharath.dao.FollowerDaoImpl listOfAllUsersFollowingYou
+WARNING: There were no followers following you
+Oct 03, 2024 10:16:02 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:02 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:02 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+WARNING: There were no users you are following
+Oct 03, 2024 10:16:02 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:02 PM org.bharath.dao.FollowerDaoImpl listAllNotFollowedUsers
+WARNING: No followers were added for the user so far
+Oct 03, 2024 10:16:04 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:04 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:04 PM org.bharath.dao.FollowerDaoImpl followUser
+INFO: Added the record to the follower table
+Oct 03, 2024 10:16:04 PM org.bharath.controller.FollowServlet doGet
+INFO: Following the user completed
+Oct 03, 2024 10:16:04 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:04 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:04 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:16:04 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:04 PM org.bharath.dao.FollowerDaoImpl listAllNotFollowedUsers
+INFO: Successfully retrieved all the non followed users list
+Oct 03, 2024 10:16:06 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:06 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:06 PM org.bharath.dao.FollowerDaoImpl followUser
+INFO: Added the record to the follower table
+Oct 03, 2024 10:16:06 PM org.bharath.controller.FollowServlet doGet
+INFO: Following the user completed
+Oct 03, 2024 10:16:06 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:06 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:06 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:16:06 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:06 PM org.bharath.dao.FollowerDaoImpl listAllNotFollowedUsers
+INFO: Successfully retrieved all the non followed users list
+Oct 03, 2024 10:16:07 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:07 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:07 PM org.bharath.dao.FollowerDaoImpl followUser
+INFO: Added the record to the follower table
+Oct 03, 2024 10:16:07 PM org.bharath.controller.FollowServlet doGet
+INFO: Following the user completed
+Oct 03, 2024 10:16:07 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:07 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:07 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:16:07 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:07 PM org.bharath.dao.FollowerDaoImpl listAllNotFollowedUsers
+INFO: Successfully retrieved all the non followed users list
+Oct 03, 2024 10:16:09 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:09 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:16:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:16:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:16:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:16:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:16:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:16:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:16:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:16:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:16:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:16:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 18
+Oct 03, 2024 10:16:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:16:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:16:09 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 25
+Oct 03, 2024 10:16:09 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 25
+Oct 03, 2024 10:16:11 PM org.bharath.dao.LikeDaoImpl likeThePost
+INFO: You have liked the record
+Oct 03, 2024 10:16:11 PM org.bharath.controller.LikeThePostServlet doGet
+INFO: Like action completed successfully
+Oct 03, 2024 10:16:11 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:11 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:16:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:16:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:16:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:16:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:16:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:16:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:16:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:16:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:16:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:16:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 18
+Oct 03, 2024 10:16:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:16:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:16:11 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 25
+Oct 03, 2024 10:16:11 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 25
+Oct 03, 2024 10:16:30 PM org.bharath.dao.CommentDaoImpl commentThePost
+INFO: Successfully added the comment to the post id: 21
+Oct 03, 2024 10:16:30 PM org.bharath.controller.AddCommentServlet doPost
+INFO: Successfully commented the post
+Oct 03, 2024 10:16:30 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:30 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:16:30 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:16:30 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:16:30 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:16:30 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:16:30 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:16:30 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:16:30 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:16:30 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:16:30 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:16:30 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 18
+Oct 03, 2024 10:16:30 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:16:30 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:16:30 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 25
+Oct 03, 2024 10:16:30 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 25
+Oct 03, 2024 10:16:32 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:16:34 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:16:34 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:16:34 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:16:34 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:16:34 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:16:34 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:16:34 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:16:34 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:16:34 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:16:34 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:16:34 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:16:34 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 18
+Oct 03, 2024 10:16:34 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:16:34 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:16:34 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 25
+Oct 03, 2024 10:16:34 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 25
+Oct 03, 2024 10:17:35 PM org.bharath.dao.PostDaoImpl createPost
+INFO: Successfully posted the message.
+Oct 03, 2024 10:17:35 PM org.bharath.controller.PostCreationServlet doPost
+INFO: Successfully created the post
+Oct 03, 2024 10:17:35 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:17:35 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:17:35 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:17:35 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:17:35 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:17:35 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:17:35 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:17:35 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:17:35 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:17:35 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:17:35 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:17:35 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 18
+Oct 03, 2024 10:17:35 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:17:35 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:17:35 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 25
+Oct 03, 2024 10:17:35 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 25
+Oct 03, 2024 10:17:35 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+WARNING: No likes received for the post with post id: 26
+Oct 03, 2024 10:17:35 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 26
+Oct 03, 2024 10:17:40 PM org.bharath.dao.LikeDaoImpl likeThePost
+INFO: You have liked the record
+Oct 03, 2024 10:17:40 PM org.bharath.controller.LikeThePostServlet doGet
+INFO: Like action completed successfully
+Oct 03, 2024 10:17:40 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:17:40 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:17:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:17:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:17:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:17:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:17:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:17:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:17:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:17:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:17:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:17:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 18
+Oct 03, 2024 10:17:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:17:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:17:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 25
+Oct 03, 2024 10:17:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 25
+Oct 03, 2024 10:17:40 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 26
+Oct 03, 2024 10:17:40 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 26
+Oct 03, 2024 10:17:42 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:17:42 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:17:42 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:17:42 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:17:42 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:17:42 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24
+Oct 03, 2024 10:17:42 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 1
+Oct 03, 2024 10:17:42 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 1
+Oct 03, 2024 10:17:42 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 5
+Oct 03, 2024 10:17:42 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 5
+Oct 03, 2024 10:17:42 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 18
+Oct 03, 2024 10:17:42 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 18
+Oct 03, 2024 10:17:42 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 21
+Oct 03, 2024 10:17:42 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 21
+Oct 03, 2024 10:17:42 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 25
+Oct 03, 2024 10:17:42 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 25
+Oct 03, 2024 10:17:42 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 26
+Oct 03, 2024 10:17:42 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 26
+Oct 03, 2024 10:18:34 PM org.bharath.controller.ForgetPasswordEmailDobValidationFilter doFilter
+INFO: Successfully retrieved the user
+Oct 03, 2024 10:18:53 PM org.bharath.controller.ChangePasswordValidateFilter doFilter
+INFO: New Password and Confirm password meets the criteria
+Oct 03, 2024 10:18:53 PM org.bharath.dao.UsersDaoImpl resetOwnPassword
+INFO: Successfully Update the password for user id 7
+Oct 03, 2024 10:18:53 PM org.bharath.controller.ChangePasswordServlet doPost
+INFO: Changing the new password is successfull
+Oct 03, 2024 10:19:10 PM org.bharath.controller.AuthenticationFilter doFilter
+INFO: Welcome Vinay Kumar
+Oct 03, 2024 10:19:10 PM org.bharath.dao.UsersDaoImpl listAllUsers
+INFO: User records fetched successfully
+Oct 03, 2024 10:19:10 PM org.bharath.dao.FollowerDaoImpl listAllFollowedUsers
+INFO: Successfully retrieved the following users list
+Oct 03, 2024 10:19:10 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 20
+Oct 03, 2024 10:19:10 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 20
+Oct 03, 2024 10:19:10 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 2
+Oct 03, 2024 10:19:10 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 2
+Oct 03, 2024 10:19:10 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 13
+Oct 03, 2024 10:19:10 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+INFO: Successfully fetched all the comments for the post with post id: 13
+Oct 03, 2024 10:19:10 PM org.bharath.dao.LikeDaoImpl getAllLikesForThePost
+INFO: Fetched all likes for the post with post id: 24
+Oct 03, 2024 10:19:10 PM org.bharath.dao.CommentDaoImpl getAllCommentsForThePost
+WARNING: There was no comments for the post with post id: 24

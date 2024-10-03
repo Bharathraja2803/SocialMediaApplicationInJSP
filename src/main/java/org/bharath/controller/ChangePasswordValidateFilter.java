@@ -5,7 +5,6 @@ import java.util.regex.Pattern;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
-import javax.servlet.FilterConfig;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
@@ -14,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.bharath.model.Users;
-import org.bharath.utils.MainCentralizedResource;
+import org.bharath.MainCentralizedResource;
 
 /**
  * Servlet Filter implementation class PasswordValidateFilter
@@ -29,7 +28,7 @@ public class ChangePasswordValidateFilter implements Filter {
 			RequestDispatcher rd = request.getRequestDispatcher("change_password.jsp");
 			session.setAttribute("bothPasswordsAreNotMatching", "y");
 			rd.forward(request, response);
-			MainCentralizedResource.LOGGER.warn("New Password and Confirm password are mismatching");
+			MainCentralizedResource.LOGGER.warning("New Password and Confirm password are mismatching");
 			return;
 		}
 		
@@ -37,14 +36,14 @@ public class ChangePasswordValidateFilter implements Filter {
 			RequestDispatcher rd = request.getRequestDispatcher("change_password.jsp");
 			session.setAttribute("isPasswordInValid", "y");
 			rd.forward(request, response);
-			MainCentralizedResource.LOGGER.warn("Password entered is not matcing the criteria");
+			MainCentralizedResource.LOGGER.warning("Password entered is not matcing the criteria");
 			return;
 		}
 		
 		Users users = (Users) session.getAttribute("userDetailsWhoFogetPasword");
 		
 		if(users == null){
-			MainCentralizedResource.LOGGER.warn("Something went wrong in geting the passsword forgotten user details!");
+			MainCentralizedResource.LOGGER.warning("Something went wrong in geting the passsword forgotten user details!");
             session.setAttribute("isForgetPassordUnsuccessfull", "y");
             RequestDispatcher rd = request.getRequestDispatcher("forget_password.jsp");
             rd.forward(request, response);
@@ -56,7 +55,7 @@ public class ChangePasswordValidateFilter implements Filter {
 			RequestDispatcher rd = request.getRequestDispatcher("change_password.jsp");
 			session.setAttribute("isOldPasswordAndNewPasswordAreSame", "y");
 			rd.forward(request, response);
-			MainCentralizedResource.LOGGER.warn("Password entered is same as old password");
+			MainCentralizedResource.LOGGER.warning("Password entered is same as old password");
 			return;
 		}
 		

@@ -3,10 +3,11 @@
  */
 package org.bharath.model;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class Like {
+public class Like implements Serializable{
     private int likeId;
     private int userId;
     private int postId;

@@ -2,7 +2,7 @@ package org.bharath.dao;
 
 
 import org.bharath.model.Comment;
-import org.bharath.utils.MainCentralizedResource;
+import org.bharath.MainCentralizedResource;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -41,7 +41,7 @@ public class CommentDaoImpl implements CommentDao{
             MainCentralizedResource.LOGGER.info("Comments deleted Successfully!.");
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
 
@@ -56,7 +56,7 @@ public class CommentDaoImpl implements CommentDao{
     public boolean deleteAllCommentsForTheUser(int userId){
         UsersDaoImpl usersDaoImp = UsersDaoImpl.getInstance(connection_);
         if(!usersDaoImp.isUserIdExits(userId)){
-            MainCentralizedResource.LOGGER.warn("Entered user id is invalid");
+            MainCentralizedResource.LOGGER.warning("Entered user id is invalid");
             return false;
         }
         try {
@@ -66,7 +66,7 @@ public class CommentDaoImpl implements CommentDao{
             MainCentralizedResource.LOGGER.info("Successfully deleted the comments for the user");
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
     }
@@ -89,7 +89,7 @@ public class CommentDaoImpl implements CommentDao{
             MainCentralizedResource.LOGGER.info("Successfully added the comment to the post id: " + postId);
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
     }
@@ -118,14 +118,14 @@ public class CommentDaoImpl implements CommentDao{
             }
 
             if(commentList.isEmpty()){
-                MainCentralizedResource.LOGGER.warn("There was no comments for the post with post id: " + postId);
+                MainCentralizedResource.LOGGER.warning("There was no comments for the post with post id: " + postId);
                 return null;
             }
 
             MainCentralizedResource.LOGGER.info("Successfully fetched all the comments for the post with post id: " + postId);
             return commentList;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return null;
         }
     }

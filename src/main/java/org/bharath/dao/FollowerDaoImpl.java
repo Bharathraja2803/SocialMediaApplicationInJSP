@@ -2,7 +2,7 @@ package org.bharath.dao;
 
 
 import org.bharath.model.Users;
-import org.bharath.utils.MainCentralizedResource;
+import org.bharath.MainCentralizedResource;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -29,7 +29,7 @@ public class FollowerDaoImpl implements FollowerDao{
     public boolean followUser(int userId, int followerId){
         boolean isFollowing = isFollowing(userId, followerId);
         if(isFollowing){
-            MainCentralizedResource.LOGGER.warn(String.format("You are already following %d user_id", followerId));
+            MainCentralizedResource.LOGGER.warning(String.format("You are already following %d user_id", followerId));
             return false;
         }
 
@@ -37,12 +37,12 @@ public class FollowerDaoImpl implements FollowerDao{
         boolean isFollowerExits = isUserIdExits(followerId);
 
         if(!isUserExits){
-            MainCentralizedResource.LOGGER.warn("User id is invalid");
+            MainCentralizedResource.LOGGER.warning("User id is invalid");
             return false;
         }
 
         if(!isFollowerExits){
-            MainCentralizedResource.LOGGER.warn("Follower id is invalid");
+            MainCentralizedResource.LOGGER.warning("Follower id is invalid");
             return false;
         }
 
@@ -54,7 +54,7 @@ public class FollowerDaoImpl implements FollowerDao{
             MainCentralizedResource.LOGGER.info("Added the record to the follower table");
             return true;
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
     }
@@ -69,7 +69,7 @@ public class FollowerDaoImpl implements FollowerDao{
         List<Users> usersList = new ArrayList<>();
         boolean isUserIdExits = isUserIdExits(userId);
         if(!isUserIdExits){
-            MainCentralizedResource.LOGGER.warn("You're user id is not valid!");
+            MainCentralizedResource.LOGGER.warning("You're user id is not valid!");
             return null;
         }
 
@@ -91,12 +91,12 @@ public class FollowerDaoImpl implements FollowerDao{
                 usersList.add(users);
             }
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return null;
         }
 
         if(usersList.isEmpty()){
-            MainCentralizedResource.LOGGER.warn("There were no users you are following");
+            MainCentralizedResource.LOGGER.warning("There were no users you are following");
             return null;
         }
 
@@ -126,7 +126,7 @@ public class FollowerDaoImpl implements FollowerDao{
     public List<Users> listAllNotFollowedUsers(int userId){
         boolean isUserIdExits = isUserIdExits(userId);
         if(!isUserIdExits){
-            MainCentralizedResource.LOGGER.warn("You're user id is not valid!");
+            MainCentralizedResource.LOGGER.warning("You're user id is not valid!");
             return null;
         }
 
@@ -135,7 +135,7 @@ public class FollowerDaoImpl implements FollowerDao{
         List<Users> allUsersInSocialMedia = usersDaoImp.listAllUsers();
         allUsersInSocialMedia.removeIf(t -> t.getUserId_() == userId);
         if(followedUserList == null){
-            MainCentralizedResource.LOGGER.warn("No followers were added for the user so far");
+            MainCentralizedResource.LOGGER.warning("No followers were added for the user so far");
             return allUsersInSocialMedia;
         }
 
@@ -156,7 +156,7 @@ public class FollowerDaoImpl implements FollowerDao{
         List<Users> usersList = new ArrayList<>();
         boolean isUserIdExits = isUserIdExits(userId);
         if(!isUserIdExits){
-            MainCentralizedResource.LOGGER.warn("You're user id is not valid!");
+            MainCentralizedResource.LOGGER.warning("You're user id is not valid!");
             return null;
         }
 
@@ -178,12 +178,12 @@ public class FollowerDaoImpl implements FollowerDao{
                 usersList.add(users);
             }
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return null;
         }
 
         if(usersList.isEmpty()){
-            MainCentralizedResource.LOGGER.warn("There were no followers following you");
+            MainCentralizedResource.LOGGER.warning("There were no followers following you");
             return null;
         }
 
@@ -206,7 +206,7 @@ public class FollowerDaoImpl implements FollowerDao{
             ResultSet resultSet = selectQueryForUser.executeQuery();
             return resultSet.next();
         } catch (SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
         }
         return false;
     }
@@ -223,19 +223,19 @@ public class FollowerDaoImpl implements FollowerDao{
         boolean isFollowerExits = isUserIdExits(unFollowId);
 
         if(!isUserExits){
-            MainCentralizedResource.LOGGER.warn("User id is invalid");
+            MainCentralizedResource.LOGGER.warning("User id is invalid");
             return false;
         }
 
         if(!isFollowerExits){
-            MainCentralizedResource.LOGGER.warn("Follower id is invalid");
+            MainCentralizedResource.LOGGER.warning("Follower id is invalid");
             return false;
         }
 
         boolean isFollowingUserId = isFollowing(userId, unFollowId);
 
         if(!isFollowingUserId){
-            MainCentralizedResource.LOGGER.warn(String.format("The User Id %d is not following %d user_id", userId, unFollowId));
+            MainCentralizedResource.LOGGER.warning(String.format("The User Id %d is not following %d user_id", userId, unFollowId));
             return false;
         }
 
@@ -249,7 +249,7 @@ public class FollowerDaoImpl implements FollowerDao{
             MainCentralizedResource.LOGGER.info("Successfully removed the record from the follower table");
             return true;
         }catch(SQLException e){
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
             return false;
         }
 

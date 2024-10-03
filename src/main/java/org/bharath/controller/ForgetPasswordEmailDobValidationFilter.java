@@ -6,7 +6,6 @@ import java.time.format.DateTimeFormatter;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
-import javax.servlet.FilterConfig;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
@@ -17,7 +16,7 @@ import javax.servlet.http.HttpSession;
 import org.bharath.dao.UsersDao;
 import org.bharath.dao.UsersDaoImpl;
 import org.bharath.model.Users;
-import org.bharath.utils.MainCentralizedResource;
+import org.bharath.MainCentralizedResource;
 
 /**
  * Servlet Filter implementation class ForgetPasswordEmailDobValidationFilter
@@ -34,7 +33,7 @@ public class ForgetPasswordEmailDobValidationFilter implements Filter {
         HttpSession session = ((HttpServletRequest) request).getSession();
         
         if(userId == -1){
-            MainCentralizedResource.LOGGER.warn("Entered email is not valid!");
+            MainCentralizedResource.LOGGER.warning("Entered email is not valid!");
             session.setAttribute("isEmailInvaid", "y");
             RequestDispatcher rd = request.getRequestDispatcher("forget_password.jsp");
             rd.forward(request, response);
@@ -44,7 +43,7 @@ public class ForgetPasswordEmailDobValidationFilter implements Filter {
         Users users = usersDaoImpl.getUser(userId);
 
         if(users == null){
-            MainCentralizedResource.LOGGER.warn("Something went wrong");
+            MainCentralizedResource.LOGGER.warning("Something went wrong");
             session.setAttribute("isForgetPassordUnsuccessfull", "y");
             RequestDispatcher rd = request.getRequestDispatcher("forget_password.jsp");
             rd.forward(request, response);
@@ -52,7 +51,7 @@ public class ForgetPasswordEmailDobValidationFilter implements Filter {
         }
 
         if( dob.isEmpty() || (!users.getBirthday_().equals(LocalDate.parse(dob, DateTimeFormatter.ofPattern("yyyy-MM-dd"))))){
-            MainCentralizedResource.LOGGER.warn("Entered date of birth is invalid");
+            MainCentralizedResource.LOGGER.warning("Entered date of birth is invalid");
             session.setAttribute("isDobInvalid", "y");
             RequestDispatcher rd = request.getRequestDispatcher("forget_password.jsp");
             rd.forward(request, response);

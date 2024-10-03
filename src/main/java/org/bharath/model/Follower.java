@@ -3,8 +3,11 @@
  */
 package org.bharath.model;
 
-public class Follower {
-    private int user_id;
+import java.io.Serializable;
+
+public class Follower implements Serializable{
+
+	private int user_id;
     private int following_user_id;
 
     public Follower() {

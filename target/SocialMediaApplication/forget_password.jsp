@@ -7,7 +7,10 @@
 <title>Forget Password</title>
 </head>
 <body>
+<div>
 <h1>ABC Social Media</h1>
+<a href="index.jsp">LoginPage</a>
+</div>
 <div>
 <%
 	if(session.getAttribute("isEmailInvaid") != null){

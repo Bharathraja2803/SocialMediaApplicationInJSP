@@ -8,6 +8,10 @@
 </head>
 <body>
 <div>
+<h1>Change Password</h1>
+<a href="index.jsp">LoginPage</a>
+</div>
+<div>
 <%
 	if(session.getAttribute("bothPasswordsAreNotMatching") != null){
 		out.println("<h3>New Password and Confirm password are mismatching!..</h3>");

@@ -8,6 +8,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import org.bharath.MainCentralizedResource;
+
 public class DBConnection {
     private static DBConnection dbConnection = null;
     private static Connection connection_ = null;
@@ -25,7 +27,7 @@ public class DBConnection {
 
 
         } catch (ClassNotFoundException | SQLException e) {
-            MainCentralizedResource.LOGGER.fatal(e.toString());
+            MainCentralizedResource.LOGGER.severe(e.toString());
         }
     }
 

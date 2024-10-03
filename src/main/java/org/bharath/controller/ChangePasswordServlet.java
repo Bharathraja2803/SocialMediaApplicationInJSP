@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 import org.bharath.dao.UsersDao;
 import org.bharath.dao.UsersDaoImpl;
 import org.bharath.model.Users;
-import org.bharath.utils.MainCentralizedResource;
+import org.bharath.MainCentralizedResource;
 
 /**
  * Servlet implementation class ChangePasswordServlet
@@ -26,7 +26,7 @@ public class ChangePasswordServlet extends HttpServlet {
 		HttpSession session = request.getSession();
 		Users targetUser = (Users) session.getAttribute("userDetailsWhoFogetPasword");
 		if(targetUser == null){
-            MainCentralizedResource.LOGGER.warn("Something went wrong in geting the passsword forgotten user details!");
+            MainCentralizedResource.LOGGER.warning("Something went wrong in geting the passsword forgotten user details!");
             session.setAttribute("isForgetPassordUnsuccessfull", "y");
             RequestDispatcher rd = request.getRequestDispatcher("forget_password.jsp");
             rd.forward(request, response);
@@ -38,7 +38,7 @@ public class ChangePasswordServlet extends HttpServlet {
 		boolean isPasswordChangeSuccessful = usersDaoImpl.resetOwnPassword(targetUser.getUserId_(), hashedPassword);
 		
         if(!isPasswordChangeSuccessful){
-            MainCentralizedResource.LOGGER.warn("Something went wrong in changing the password in DB");
+            MainCentralizedResource.LOGGER.warning("Something went wrong in changing the password in DB");
             RequestDispatcher rd = request.getRequestDispatcher("change_password.jsp");
 			session.setAttribute("isChangingPasswordWithNewPasswordSuccessfull", "y");
 			rd.forward(request, response);
@@ -50,5 +50,9 @@ public class ChangePasswordServlet extends HttpServlet {
         RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
         rd.forward(request, response);
 	}
+
+	
+	
+	
 
 }
